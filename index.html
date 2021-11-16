@@ -1,0 +1,103 @@
+<title>CSS Art Project</title>
+
+<style>
+  
+  @keyframes bounce1 {
+    0%{
+      transform: translate(50, -50);
+    }
+    100%{
+      transform: translate(70, -70);
+    } 
+  }
+  
+  @keyframes bounce2 {
+    0%{
+      transform: translate(70, -70);
+    }
+    100%{
+      transform: translate(25, -25);
+    }
+  }
+
+  @keyframes bounce3 {
+    0%{
+      transform: translate(25, -25);
+    }
+    100%{
+      transform: translate(-50, 50);
+    }
+  }
+
+  
+  body{
+    background-color: black;
+    background-image: url(https://staticdelivery.nexusmods.com/mods/1151/images/145-0-1447254298.png);
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    background-position-x: -50px; 
+  }
+  
+  .oval{
+    width: 400px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: pink;
+    transform: rotate(5deg);
+    background-image: url(https://images.vexels.com/media/users/3/143404/isolated/preview/59272fb8b184dd772be2b5552553622d-grey-dvd-logo-by-vexels.png);
+    background-size: 355px;
+    background-position-x: 20px;
+    background-position-y: -60px;
+    animation: bounce1 5s ease-out infinite;
+  }
+  
+  .change1{
+    width: 400px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: yellow;
+    transform: rotate(-15deg);
+    background-image: url(https://images.vexels.com/media/users/3/143404/isolated/preview/59272fb8b184dd772be2b5552553622d-grey-dvd-logo-by-vexels.png);
+    background-size: 355px;
+    background-position-x: 20px;
+    background-position-y: -60px;
+    animation: bounce2 5s ease-out infinite;
+  }
+
+  .change2{
+    width: 400px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: green;
+/*     transform: rotate(5deg); */
+    background-image: url(https://images.vexels.com/media/users/3/143404/isolated/preview/59272fb8b184dd772be2b5552553622d-grey-dvd-logo-by-vexels.png);
+    background-size: 355px;
+    background-position-x: 20px;
+    background-position-y: -60px;
+    animation: bounce3 5s ease-out infinite;
+  }
+  
+  .change3{/*same as oval */
+    width: 400px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: pink;
+    transform: rotate(5deg);
+    background-image: url(https://images.vexels.com/media/users/3/143404/isolated/preview/59272fb8b184dd772be2b5552553622d-grey-dvd-logo-by-vexels.png);
+    background-size: 355px;
+    background-position-x: 20px;
+    background-position-y: -60px;
+    animation: bounce1 5s ease-out infinite;
+  }
+  
+</style>
+
+<!-- <div class="oval"></div> -->
+<!-- <div class="change1"></div> -->
+<!-- <div class="change2"></div> -->
+<div class="change3"></div>
+<!-- </div> -->
